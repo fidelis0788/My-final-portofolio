@@ -78,7 +78,7 @@
         border-bottom:1px solid rgb(119, 119, 201);
         animation-name: example;
         animation-duration: 10s;
-        transition: width 2s; */
+        transition: width 2s; 
 }
         
    h1:hover {
@@ -94,4 +94,4 @@
         display: none;
         opacity: 0.5;
         animation-duration: 5s;
-    } */
+    } 
