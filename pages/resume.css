@@ -1,0 +1,97 @@
+ section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background-image: url(./sina-katirachi-HgtVLFq9lQA-unsplash.jpg);
+    background-attachment: fixed;
+    margin-top: 100px;
+   
+    
+  }
+ .container-grid {
+    display: grid;
+    grid-template-columns: 175px 600px; 
+    border: 1px solid;
+   margin-left: 100px; 
+  
+  
+ }
+   .col-1 {
+    height: 100vh;
+    grid-row: row 1px;
+    grid-column: 1px;
+    width: 600px;
+    
+    
+   }     
+
+    
+.col-2 {
+        background-color: rgb(255, 253, 253);
+        height: 100vh;
+        display: flex;   
+        display: flex;
+        margin: 5px;
+        padding:20px ; 
+        width: 600px;
+    } 
+      ul-{
+        
+        font-size: xx-small;
+        background-size: contain;
+        background: transparent;
+        
+    }
+    
+        
+    ul{
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        background-color:rgb(174, 174, 252);
+       
+    }
+ 
+    h4{
+      text-decoration-color: cornflowerblue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:rgb(104, 126, 187) ;
+       
+    
+    }
+    h3{
+        display: flex;
+        flex-direction: row;
+        margin: 20px
+        
+    }
+    
+    p{
+      font-family: monospace 
+    }
+    h2.h3,h4{
+        border-bottom:1px solid rgb(119, 119, 201);
+    }
+    h1{
+        border-bottom:1px solid rgb(119, 119, 201);
+        animation-name: example;
+        animation-duration: 10s;
+        transition: width 2s; */
+}
+        
+   h1:hover {
+  width: 300px;
+   }
+    @keyframes example {
+        0%   {background-color: rgb(90, 81, 81);}
+        25%  {background-color: yellow;}
+        50%  {background-color: rgb(141, 141, 172);}
+        100% {background-color: rgb(142, 160, 142);}
+      }
+    img:hover {
+        display: none;
+        opacity: 0.5;
+        animation-duration: 5s;
+    } */

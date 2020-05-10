@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-x: initial;
+    background-attachment: fixed;
+    width: auto;
+    background-color: rgb(219, 218, 218);
+}
+ h2 {
+ color:rgb(2, 0, 0); 
+ margin-left: 130px; 
+}
+button{
+   width: 40px;
+   height: 40px;
+}
+.socialmedia{
+    display: flex;
+    background-color: rgb(78, 77, 77);
+    flex-direction: row;
+    width: 450px;
+    margin: 20px;
+    color: black
+   
+}
+.socialmedia>i{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 5px;
+   
+}
+
+header>h1 {
+margin: 20px;
+color: black;
+font-weight: 700;
+text-align: center;
+}
+div>i{
+    margin: 30px;
+}
+p{
+    margin:20px;
+     color: black;
+    font-weight: bold;
+}
+.image{
+     text-align:center; 
+     width: auto;
+     margin-bottom: 150px; 
+
+   
+}
+ul{
+   list-style: none;
+   display:grid;
+   grid-template-columns: 100px 100px 100px 100px 100px;
+    
+}
+li{
+    display: flex; 
+    align-content: center;
+    height: 100px;
+  
+  
+}
+ 
+section{
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 10px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin: 10px;
+    margin-left: 400px;
+   
+
+  }
+  .container{
+    display: flex;
+    margin: 30px;  
+  }
+  section div img {
+      margin: 20px;
+      padding: 20px;
+     
+  }
+  .middle {
+    opacity: 0;
+    position: relative;
+    text-align: center; 
+    background-color:rgb(60, 60, 114);
+    border-radius: 25px;
+    margin-left: -310px;
+    height: 250px;
+    margin-top: -30px;
+   
+  }
+  .container:hover .image {
+    opacity: 0.5;
+  }
+  
+  .container:hover .middle {
+    opacity: 3;
+  }
+   
+   .text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px 5px; 
+    color:white;
+     width: 300px; 
+    text-align: center;
+    margin-top: 80px;    
+  }
+  .main>a{
+      height: 200px;
+  }
+
