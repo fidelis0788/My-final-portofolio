@@ -129,7 +129,10 @@ section{
   @media(max-width: 756px){
     section{
       display: block;
-      background-color: greenyellow;
       margin-left: none;
+    }
+    img{
+      width: auto;
+      height: auto;
     }
   }
