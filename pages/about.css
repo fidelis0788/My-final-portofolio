@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: rgb(113, 145, 145) 
+}
     
 header{
      font-style: oblique;
@@ -17,7 +19,7 @@ header{
     margin: auto;
     height: 80px;
     padding: 30px;
-    
+
     }
     nav{
     display: flex;

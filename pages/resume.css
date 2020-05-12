@@ -1,89 +1,87 @@
- section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 10px;
-    background-image: url(./sina-katirachi-HgtVLFq9lQA-unsplash.jpg);
-    background-attachment: fixed;
-    margin-top: 100px;
-   
-    
-  }
- .container-grid {
-    display: grid;
-    grid-template-columns: 175px 600px; 
-    border: 1px solid;
-   margin-left: 100px; 
-  
-  
+ body{
+  background-color:  rgb(113, 145, 145);
  }
-   .col-1 {
-    height: 100vh;
-    grid-row: row 1px;
-    grid-column: 1px;
-    width: 600px;
-    
-    
-   }     
-
-    
-.col-2 {
-        background-color: rgb(255, 253, 253);
-        height: 100vh;
-        display: flex;   
-        display: flex;
-        margin: 5px;
-        padding:20px ; 
-        width: 600px;
-    } 
-      ul-{
-        
-        font-size: xx-small;
-        background-size: contain;
-        background: transparent;
-        
-    }
-    
-        
-    ul{
-        font-size: large;
-        font-family: 'Times New Roman', Times, serif;
-        background-color:rgb(174, 174, 252);
-       
-    }
  
-    h4{
-      text-decoration-color: cornflowerblue;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color:rgb(104, 126, 187) ;
-       
-    
-    }
-    h3{
-        display: flex;
-        flex-direction: row;
-        margin: 20px
-        
-    }
-    
-    p{
-      font-family: monospace 
-    }
-    h2.h3,h4{
-        border-bottom:1px solid rgb(119, 119, 201);
-    }
-    h1{
-        border-bottom:1px solid rgb(119, 119, 201);
-        animation-name: example;
-        animation-duration: 10s;
-        transition: width 2s; 
+ 
+  
+ 
+.resume{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 300px 400px;
+  background-color: rgb(221, 223, 223);
+  justify-content: center; 
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: smaller;
+  
+  
+  
+  
 }
-        
-   h1:hover {
-  width: 300px;
-   }
+img{
+  padding: 40px;
+  border-radius: 100px;
+}
+.socialmedia{
+  display: flex;
+  flex-direction: column;
+  margin: 30px; 
+  background-color: rgb(125, 136, 125);
+  height: 1000px;
+}
+i{
+ padding: 10px;
+}
+.text{
+  margin: 30px;
+   text-align: center; 
+}
+.col2{
+  
+  height: 1000px;
+}
+h1{
+  margin-top: 30px;
+  font-weight: bold;
+  background-color: rgb(24, 22, 22);
+  color: rgb(184, 186, 187);
+  text-align: center;
+  padding: 10px;
+  
+  
+}
+  p{
+    font-size: smaller;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+h3{
+  background-color: rgb(24, 23, 23);
+  color: rgb(165, 164, 164);
+  font-size: small;
+  font-weight: bold;
+  padding: 10px;
+}
+h5{
+  font-size: smaller;
+  font-weight: bold;
+}
+h4,h2{
+  font-size: small;
+  font-weight: bold;
+  color: rgb(146, 146, 223);
+}
+h6{
+  font-size: small ;
+}
+header{
+  text-align: center;
+  display: none;
+}
+
+}
     @keyframes example {
         0%   {background-color: rgb(90, 81, 81);}
         25%  {background-color: yellow;}
@@ -95,3 +93,28 @@
         opacity: 0.5;
         animation-duration: 5s;
     } 
+    @media(max-width: 600px){
+      body{
+     background-color: white;
+     float: left;
+    }
+      .resume{
+        display: block;
+        margin: none;
+        width: auto;
+        height:auto;
+      margin-left: 50px;
+
+      }
+h1{
+  display: none;
+}
+header{
+  display: flex;
+}
+img{
+  width:200px;
+  border-radius: 100px;
+}
+
+  }
