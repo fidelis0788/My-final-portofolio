@@ -83,7 +83,7 @@ section{
     transition: .5s ease;
     backface-visibility: hidden;
     margin: 10px;
-    margin-left: 400px;
+    /* margin-left: 400px; */
    
 
   }
@@ -126,4 +126,13 @@ section{
   }
  
 
-  
+  @media(max-width: 756px){
+    section{
+      display: block;
+      margin-left: none;
+    }
+    img{
+      width: auto;
+      height: auto;
+    }
+  }
