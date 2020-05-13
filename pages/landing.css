@@ -20,7 +20,7 @@ button{
 }
 .socialmedia{
     display: flex;
-    background-color: rgb(106, 106, 243);
+    background-color: rgb(95, 95, 170);
     flex-direction: row;
     width: 450px;
     margin: 20px;
@@ -83,7 +83,7 @@ section{
     transition: .5s ease;
     backface-visibility: hidden;
     margin: 10px;
-    /* margin-left: 400px; */
+    margin-left: 400px; 
    
 
   }
