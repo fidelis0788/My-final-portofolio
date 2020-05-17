@@ -125,15 +125,27 @@ section{
     text-align: center;
     margin-top: 80px;    
   }
- 
+  .hidden{
+    display: none;
+  }
 
   @media(max-width: 756px){
     section{
       display: block;
-      margin-left: none;
+      margin-left: 0;
     }
     img{
       width: auto;
       height: auto;
+    }
+    ul{
+      margin: 0;
+    }
+    .socialmedia{
+     display: none;
+    }
+    .hidden{
+      display: flex;
+      background-color: rgb(182, 182, 178);
     }
   }

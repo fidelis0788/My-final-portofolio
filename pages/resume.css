@@ -102,7 +102,7 @@ header{
         margin: none;
         width: auto;
         height:auto;
-      margin-left: 50px;
+        margin-left: 0; 
 
       }
 h1{
@@ -115,5 +115,7 @@ img{
   width:200px;
   border-radius: 100px;
 }
-
+.col2{
+  margin: 30px;
+}
   }

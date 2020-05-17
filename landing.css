@@ -124,15 +124,32 @@ section{
     text-align: center;
        
   }
+  .hidden{
+    display: none;
+  }
  
 
   @media(max-width: 756px){
     section{
       display: block;
-      margin-left: none;
+      margin-left: 0;
     }
     img{
       width: auto;
       height: auto;
+    }
+    ul{
+      margin: 0;
+    }
+    .socialmedia{
+     display: none;
+      /* width: 100px;
+      margin: 0;
+      padding: 10px;
+      font-size: 10px;
+      position: absolute; */
+    }
+    .hidden{
+      display: flex;
     }
   }

@@ -32,7 +32,7 @@ section{
   padding: 30px;
   margin-top: 20px;
   height: auto;
-  background-attachment: fixed;
+  background-attachment: fixed; 
 }
   
   
@@ -43,7 +43,7 @@ section{
   background-color: rgb(102, 102, 126);
   height: 800px;
   background-attachment: fixed;
- margin-left: 10px;
+  margin-left: 10px;
   
 
 }
@@ -71,5 +71,36 @@ section{
    font-size: 20px;
    color: rgb(231, 225, 225);
  }
-
+@media(max-width: 756px){
+  .main{
+display: flex;
+flex-direction: column;
+height: auto;
+background-position: initial;
+justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    transition: none;
+    height: auto;
+    margin-left: 0;
+    text-align: center;
+ 
+  }
+  .main:hover{
+    transform: none;
+  }
+  section{
+    height: auto;
+    overflow: visible;
+    margin-left: 0;
+    
+    
+  }
+  body{
+    width: auto;
+  }
+}
  

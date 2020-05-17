@@ -44,7 +44,7 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        background-color: black;
+        background-color: rgb(159, 159, 223);
       
     
        
@@ -84,4 +84,13 @@ header{
         margin-left: 450px ;
         
         
+    }
+    img{
+        margin-top: 20px;
+        border-radius: 150px;
+    }
+    @media(max-width: 756px){
+        img{
+            width: 200px;
+        }
     }
