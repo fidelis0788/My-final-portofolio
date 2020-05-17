@@ -147,5 +147,13 @@ section{
     .hidden{
       display: flex;
       background-color: rgb(182, 182, 178);
+     
+     
+    }
+    .hidden>i{
+      display: flex;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
     }
   }
