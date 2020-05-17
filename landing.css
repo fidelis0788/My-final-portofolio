@@ -7,11 +7,11 @@ body{
     background-position-x: initial;
     background-attachment: fixed;
     width: auto;
-    background-color: rgb(113, 145, 145);
+    background-color: rgb(102, 148, 148);
     padding: 20px;
 }
  h2 {
- color:rgb(2, 0, 0); 
+ color:rgb(85, 85, 131); 
  margin-left: 130px; 
 }
 button{
@@ -31,6 +31,7 @@ button{
 h1{
   margin: 20px;
   margin-top: 200px;
+ 
 }
 .socialmedia>i{
     border: 1px solid;

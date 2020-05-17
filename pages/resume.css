@@ -9,7 +9,7 @@
   width: 1000px;
   display: grid;
   grid-template-columns: 300px 400px;
-  background-color: rgb(221, 223, 223);
+  background-color: rgb(184, 187, 187);
   justify-content: center; 
   margin-left: 200px;
   margin-top: 50px;
@@ -71,7 +71,7 @@ h5{
 h4,h2{
   font-size: small;
   font-weight: bold;
-  color: rgb(146, 146, 223);
+  color: rgb(55, 55, 95);
 }
 h6{
   font-size: small ;

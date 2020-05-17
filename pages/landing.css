@@ -1,14 +1,14 @@
 body{
-    margin: 0;
-    padding: 0;
-    height: auto;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position-x: initial;
-    background-attachment: fixed;
-    width: auto;
+    background-position-x: initial; 
     background-color: rgb(113, 145, 145);
-    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+body:hover{
+  transform: scale(0.9);
 }
  h2 {
  color:rgb(2, 0, 0); 
@@ -81,11 +81,10 @@ section{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     padding: 10px;
-    transition: .5s ease;
     backface-visibility: hidden;
     margin: 10px;
     margin-left: 400px; 
-   
+    background-attachment: fixed; 
 
   }
   .container{
@@ -115,6 +114,7 @@ section{
   .container:hover .middle {
     opacity: 3;
   }
+   
    
    .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
