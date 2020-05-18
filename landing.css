@@ -1,17 +1,17 @@
 body{
-    margin: 0;
-    padding: 0;
-    height: auto;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position-x: initial;
-    background-attachment: fixed;
-    width: auto;
-    background-color: rgb(102, 148, 148);
-    padding: 20px;
+    background-position-x: initial; 
+    background-color: rgb(113, 145, 145);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+body:hover{
+  transform: scale(0.9);
 }
  h2 {
- color:rgb(85, 85, 131); 
+ color:rgb(2, 0, 0); 
  margin-left: 130px; 
 }
 button{
@@ -20,18 +20,17 @@ button{
 }
 .socialmedia{
     display: flex;
-    background-color: rgb(106, 106, 243);
+    background-color: rgb(95, 95, 170);
     flex-direction: row;
     width: 450px;
     margin: 20px;
-    color: black
-   
+    color: black; 
+    
 }
 
 h1{
   margin: 20px;
   margin-top: 200px;
- 
 }
 .socialmedia>i{
     border: 1px solid;
@@ -56,9 +55,10 @@ p{
     font-weight: bold;
 }
 .image{
-     text-align:center; 
-     width: auto;
-     margin-bottom: 150px; 
+  text-align:center; 
+  width: auto;
+  margin-bottom: 150px;
+     
 
    
 }
@@ -81,11 +81,10 @@ section{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     padding: 10px;
-    transition: .5s ease;
     backface-visibility: hidden;
     margin: 10px;
-    /* margin-left: 400px; */
-   
+    margin-left: 400px; 
+    background-attachment: fixed; 
 
   }
   .container{
@@ -116,6 +115,7 @@ section{
     opacity: 3;
   }
    
+   
    .text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
@@ -123,12 +123,11 @@ section{
     color:white;
     width: 300px; 
     text-align: center;
-       
+    margin-top: 80px;    
   }
   .hidden{
     display: none;
   }
- 
 
   @media(max-width: 756px){
     section{
@@ -144,13 +143,17 @@ section{
     }
     .socialmedia{
      display: none;
-      /* width: 100px;
-      margin: 0;
-      padding: 10px;
-      font-size: 10px;
-      position: absolute; */
     }
     .hidden{
       display: flex;
+      background-color: rgb(182, 182, 178);
+     
+     
+    }
+    .hidden>i{
+      display: flex;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
     }
   }
